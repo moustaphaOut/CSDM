@@ -32,7 +32,7 @@
         <li>Lombok</li> 
         <li>Hibernate</li>
         <li>Maven</li>
-        <li>MySQL</li>
+        <li>h2 database</li>
   </ul>
  
   <h2><a id="user-content-contributors" class="anchor" aria-hidden="true" href="#contributors"><svg
@@ -70,13 +70,13 @@
       </svg></a>Getting Started</h2>
      <p>Install CSDM as base of your projects is very easy. To install it manually to know all the process, please read the following instructions.</p>
       <p>First, you have to clone this repository in your web root directory:</p>
-      <div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/moustaphaOut/CSDM.git</pre></div>
+      <div class="highlight highlight-source-shell"><pre>$ git clone -b v1 https://github.com/moustaphaOut/CSDM.git</pre></div>
       <p>Then, you have to create database named "books"</p>
     <p> Then you can run the application as "JAVA APPLICATION"</p>
   
   
   <p>When you have your server running , you can check the app in your browser:</p>
-  <pre><code>http://localhost:8081/
+  <pre><code>http://localhost:9090/
   </code></pre>
   <p>For more help getting started with Spring boot, view the
       <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" rel="nofollow">online documentation</a></p>
