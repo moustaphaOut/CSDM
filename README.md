@@ -27,12 +27,11 @@
       fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Technology Stack
   </h2>
   <ul>
-   <li>Spring Boot</li>
-        <li>JPA</li> 
-        <li>Lombok</li> 
+   <li>Spring Data JPA</li>
         <li>Hibernate</li>
         <li>Maven</li>
-        <li>MySQL</li>
+        <li>H2</li>
+        <li>GraphQL</li>
   </ul>
  
   <h2><a id="user-content-contributors" class="anchor" aria-hidden="true" href="#contributors"><svg
@@ -76,7 +75,7 @@
   
   
   <p>When you have your server running , you can check the app in your browser:</p>
-  <pre><code>http://localhost:8081/
+  <pre><code>http://localhost:9090/apis/graphql
   </code></pre>
   <p>For more help getting started with Spring boot, view the
       <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" rel="nofollow">online documentation</a></p>
